@@ -1,0 +1,84 @@
+☐ # Uninstall the AWS CLI version 2
+https://docs.aws.amazon.com/cli/latest/userguide/install-cliv2-mac.html#cliv2-mac-install-confirm
+☐ 
+
+use HTTPS, and eventually I will need to set up autoscaling.
+
+
+FARGATE
+https://andrewrowell.blog/2019/10/06/deploying-a-nodejs-app-in-aws-fargate/
+
+
+TEST KEYMETRIC DOCKER ON E_BEANSTALK
+
+APP LOAD BALANCER
+ACM CERTIFICATE
+
+
+
+☐ How to run Cron Job in Node.js application that uses cluster module?
+https://stackoverflow.com/questions/30843605/how-to-run-cron-job-in-node-js-application-that-uses-cluster-module
+
+https://www.npmjs.com/package/cron-cluster
+
+
+☐ https://www.gosquared.com/blog/distributed-locks-using-rediss
+In computer science, a lock is a synchronization mechanism for enforcing limits on access to a resource in an environment where there are many threads of execution. A lock is designed to enforce a mutual exclusion concurrency control policy.
+
+
+☐ NODE_APP_INSTANCE (PM2 2.5 minimum)
+https://pm2.keymetrics.io/docs/usage/environment/
+
+
+
+
+
+TRY FORKING CLUSTER
+TRY FOREVER
+
+
+☐ AWS Elastic Beanstalk: when NOT to use it
+https://insights.project-a.com/aws-elastic-beanstalk-when-not-to-use-it-b04dc95b2e9c
+
+
+☐ Manual scaling for Amazon EC2 Auto Scaling
+https://docs.aws.amazon.com/autoscaling/ec2/userguide/as-manual-scaling.html
+
+☐ Setting capacity limits for your Auto Scaling group 
+https://docs.aws.amazon.com/autoscaling/ec2/userguide/asg-capacity-limits.html
+
+☐ Elastic Beanstalk: Advantages and Drawbacks
+https://medium.com/@acamp/elastic-beanstalk-advantages-and-drawbacks-be814615af01
+
+
+☐ You should never ever run directly against Node.js in production. Maybe.
+https://www.freecodecamp.org/news/you-should-never-ever-run-directly-against-node-js-in-production-maybe-7fdfaed51ec6/
+
+
+☐ Deploying Docker containers with AWS EC2 Instance.
+https://medium.com/@chandupriya93/deploying-docker-containers-with-aws-ec2-instance-265038bba674
+
+☐ AWS — Deploying React With NodeJS App On ECS
+https://medium.com/bb-tutorials-and-thoughts/aws-deploying-react-with-nodejs-app-on-ecs-6847ca470c09
+
+
+☐ Setting Up Continuous Integration with CircleCI
+https://andrewrowell.blog/2019/12/14/setting-up-continuous-integration-with-circleci/
+
+☐ How to deploy a Node.js application to Amazon Web Services using Docker
+https://www.freecodecamp.org/news/how-to-deploy-a-node-js-application-to-amazon-web-services-using-docker-81c2a2d7225b/
+
+☐ Top 4 Tactics To Keep Node.js Rockin’ in Docker
+https://www.docker.com/blog/keep-nodejs-rockin-in-docker/
+
+
+☐ AWS Fargate: From Start to Finish for a NodeJS App
+https://medium.com/@ariklevliber/aws-fargate-from-start-to-finish-for-a-nodejs-app-9a0e5fbf6361
+
+
+☐ Deploying a NodeJS App in AWS Fargate
+https://andrewrowell.blog/2019/10/06/deploying-a-nodejs-app-in-aws-fargate/
+
+
+
+

@@ -1,0 +1,40 @@
+import { Transaction } from "../models";
+
+/**
+ * Save user debit card data
+ * @param {} 
+ */
+const addPaymentCard = async (request, response, next) => {}
+
+/**
+ * Card Transaction to other Banks
+ * @param {}  
+ */
+const cardToBankTransfer = async (request, response, next) => {};
+
+/**
+ * Transfer to other Bank from Wallet
+ * @param {}  
+ */
+const transferToBankFromWallet = async (request, response, next) => {};
+
+/**
+ * Wallet to other Bank (Withdrawal)
+ * - Similar logic exist in wallet
+ * @param {}  
+ */
+const walletToBankWithdrawal = async (request, response, next) => {};
+
+/**
+ * Withdrawal via card (agent point)
+ * Agent charge card, agent issue cash
+ * @param {}  
+ */
+const cardWithdrawal = async (request, response, next) => {};
+
+/**
+ * Withdrawal via mPOS (agent point)
+ * Agent initiate trx, send command to mPos, charge card, agent issue cash
+ * @param {}  
+ */
+const mPosWithdrawal = async (request, response, next) => {};

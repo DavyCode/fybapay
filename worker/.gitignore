@@ -1,0 +1,16 @@
+node_modules
+old
+trash
+dist
+logs
+flow-typed
+.env
+sample
+access.log
+createAWsMailTemplates.js
+MAIL_FOR_AGENT_APPLICATION.jpeg
+_sample
+Old_CODE
+heroku.ym
+template-screen
+old.todo

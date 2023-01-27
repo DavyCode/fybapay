@@ -1,0 +1,12 @@
+config:
+  target: 'http://localhost:8000'
+  phases:
+    - duration: 2
+      arrivalRate: 2
+  defaults:
+    headers:
+      x-my-service-auth: ''
+scenarios:
+  - flow:
+    - get:
+        url: "/rbq/v1/services/charges/find-one?serviceType=WITHDRAW"

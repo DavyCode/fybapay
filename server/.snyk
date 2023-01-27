@@ -1,0 +1,118 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.19.0
+# ignores vulnerabilities until expiry date; change duration by modifying expiry date
+ignore:
+  SNYK-JS-MINIMIST-559764:
+    - forever > flatiron > broadway > nconf > optimist > minimist:
+        reason: None given
+        expires: '2023-02-23T00:11:38.848Z'
+    - forever > forever-monitor > broadway > nconf > optimist > minimist:
+        reason: None given
+        expires: '2023-02-23T00:11:38.848Z'
+  SNYK-JS-MINIMIST-2429795:
+    - forever > forever-monitor > broadway > nconf > optimist > minimist:
+        reason: None given
+        expires: '2023-02-23T00:11:38.848Z'
+  SNYK-JS-NCONF-2395478:
+    - forever > flatiron > broadway > nconf:
+        reason: None given
+        expires: '2023-02-23T00:11:38.848Z'
+  SNYK-JS-NTHCHECK-1586032:
+    - email-templates > juice > cheerio > css-select > nth-check:
+        reason: None given
+        expires: '2023-02-23T00:11:38.849Z'
+  SNYK-JS-UNDERSCORE-1080984:
+    - email-templates > @ladjs/i18n > country-language > underscore:
+        reason: None given
+        expires: '2023-02-23T00:11:38.849Z'
+    - email-templates > @ladjs/i18n > i18n-locales > country-language > underscore:
+        reason: None given
+        expires: '2023-02-23T00:11:38.849Z'
+  SNYK-JS-UNSETVALUE-2400660:
+    - '@babel/cli > chokidar > braces > snapdragon > base > cache-base > unset-value':
+        reason: None given
+        expires: '2023-02-23T00:11:38.849Z'
+    - forever > forever-monitor > chokidar > braces > snapdragon > base > cache-base > unset-value:
+        reason: None given
+        expires: '2023-02-23T00:11:38.849Z'
+    - '@babel/cli > chokidar > anymatch > micromatch > snapdragon > base > cache-base > unset-value':
+        reason: None given
+        expires: '2023-02-23T00:11:38.849Z'
+    - '@babel/cli > chokidar > readdirp > micromatch > snapdragon > base > cache-base > unset-value':
+        reason: None given
+        expires: '2023-02-23T00:11:38.849Z'
+    - '@babel/cli > chokidar > anymatch > micromatch > braces > snapdragon > base > cache-base > unset-value':
+        reason: None given
+        expires: '2023-02-23T00:11:38.849Z'
+    - '@babel/cli > chokidar > readdirp > micromatch > braces > snapdragon > base > cache-base > unset-value':
+        reason: None given
+        expires: '2023-02-23T00:11:38.849Z'
+    - '@babel/cli > chokidar > anymatch > micromatch > extglob > snapdragon > base > cache-base > unset-value':
+        reason: None given
+        expires: '2023-02-23T00:11:38.849Z'
+    - '@babel/cli > chokidar > readdirp > micromatch > extglob > snapdragon > base > cache-base > unset-value':
+        reason: None given
+        expires: '2023-02-23T00:11:38.849Z'
+    - '@babel/cli > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > cache-base > unset-value':
+        reason: None given
+        expires: '2023-02-23T00:11:38.849Z'
+    - '@babel/cli > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > cache-base > unset-value':
+        reason: None given
+        expires: '2023-02-23T00:11:38.850Z'
+    - forever > forever-monitor > chokidar > anymatch > micromatch > snapdragon > base > cache-base > unset-value:
+        reason: None given
+        expires: '2023-02-23T00:11:38.850Z'
+    - forever > forever-monitor > chokidar > readdirp > micromatch > snapdragon > base > cache-base > unset-value:
+        reason: None given
+        expires: '2023-02-23T00:11:38.850Z'
+    - forever > forever-monitor > chokidar > anymatch > micromatch > braces > snapdragon > base > cache-base > unset-value:
+        reason: None given
+        expires: '2023-02-23T00:11:38.850Z'
+    - forever > forever-monitor > chokidar > readdirp > micromatch > braces > snapdragon > base > cache-base > unset-value:
+        reason: None given
+        expires: '2023-02-23T00:11:38.850Z'
+    - '@babel/cli > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > unset-value':
+        reason: None given
+        expires: '2023-02-23T00:11:38.850Z'
+    - '@babel/cli > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > unset-value':
+        reason: None given
+        expires: '2023-02-23T00:11:38.850Z'
+    - forever > forever-monitor > chokidar > anymatch > micromatch > extglob > snapdragon > base > cache-base > unset-value:
+        reason: None given
+        expires: '2023-02-23T00:11:38.850Z'
+    - forever > forever-monitor > chokidar > readdirp > micromatch > extglob > snapdragon > base > cache-base > unset-value:
+        reason: None given
+        expires: '2023-02-23T00:11:38.850Z'
+    - forever > forever-monitor > chokidar > anymatch > micromatch > nanomatch > snapdragon > base > cache-base > unset-value:
+        reason: None given
+        expires: '2023-02-23T00:11:38.850Z'
+    - forever > forever-monitor > chokidar > readdirp > micromatch > nanomatch > snapdragon > base > cache-base > unset-value:
+        reason: None given
+        expires: '2023-02-23T00:11:38.850Z'
+    - forever > forever-monitor > chokidar > anymatch > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > unset-value:
+        reason: None given
+        expires: '2023-02-23T00:11:38.851Z'
+    - forever > forever-monitor > chokidar > readdirp > micromatch > extglob > expand-brackets > snapdragon > base > cache-base > unset-value:
+        reason: None given
+        expires: '2023-02-23T00:11:38.851Z'
+  SNYK-JS-Y18N-1021887:
+    - firebase-admin > @google-cloud/firestore > google-gax > @grpc/grpc-js > @grpc/proto-loader > yargs > y18n:
+        reason: None given
+        expires: '2023-02-23T00:11:38.851Z'
+  'npm:utile:20180614':
+    - forever > flatiron > broadway > utile:
+        reason: None given
+        expires: '2023-02-23T00:11:38.851Z'
+    - forever > forever-monitor > broadway > utile:
+        reason: None given
+        expires: '2023-02-23T00:11:38.851Z'
+    - forever > flatiron > prompt > utile:
+        reason: None given
+        expires: '2023-02-23T00:11:38.851Z'
+    - forever > utile:
+        reason: None given
+        expires: '2023-02-23T00:11:38.851Z'
+    - forever > forever-monitor > utile:
+        reason: None given
+        expires: '2023-02-23T00:11:38.851Z'
+patch: {}

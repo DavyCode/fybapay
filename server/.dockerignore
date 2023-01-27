@@ -1,0 +1,6 @@
+.git
+AWSCLIV2.pkg
+node_modules
+.env
+.gitignore
+.dockerignore
